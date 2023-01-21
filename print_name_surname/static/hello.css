@@ -1,0 +1,33 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-image: linear-gradient(to right, #8125cc, #2f36a0);
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .wrapper {
+        height: 100vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    .mainDiv {
+        width: 400px;
+        height: 200px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 25px;
+    }
+    
+    span h4 {
+        font-size: 40px;
+        color: red;
+        font-weight: 900;
+    }

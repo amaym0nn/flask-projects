@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #8125cc, #2f36a0);
+    font-family: Carlito;
+}
+
+.wrapper {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mainDiv {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 700px;
+    height: 460px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mainDiv h2 {
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    font-size: 40px;
+    color: red;
+}
+
+.label1,
+.label2 {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(255, 72, 0);
+    font-weight: 900;
+}
+
+.label1 {
+    top: 100px;
+    left: 290px;
+}
+
+.label2 {
+    top: 200px;
+    left: 278px;
+}
+
+#nameTxt,
+#surnameTxt {
+    position: absolute;
+    width: 260px;
+    height: 20px;
+    color: red;
+    font-weight: 900;
+}
+
+#nameTxt {
+    top: 150px;
+    left: 204px;
+}
+
+#surnameTxt {
+    top: 250px;
+    left: 204px;
+}
+
+#submit {
+    position: absolute;
+    bottom: 100px;
+    right: 320px;
+    width: 100px;
+    height: 35px;
+}

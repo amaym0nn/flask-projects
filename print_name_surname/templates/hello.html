@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='hello.css') }}" />
+    <title> Hello Page </title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="mainDiv">
+            <span> 
+                {% if name and surname %}
+                    <h4> Hello! {{ name }} {{ surname }} </h4>
+                
+                {% else %}
+                    <h4> Get Request... </h4>
+                
+                {% endif %}
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
